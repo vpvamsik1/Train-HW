@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <title>
+      Train 
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body>
+<div class="container" id="C1">
+    <p id="P1">Train Schedule</p>
+</div>
+
+<div class="container" id="C2">
+    <p id="P2"><span class="S1">Current Train Schedule</span></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Train Name</th>
+                <th>Destinations</th>
+                <th>Frequency (min)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container" id="C3">
+    <p id="P2"><span class="S1">Add Train</span></p>
+    <p class="P3">Train Name: <input type="text" id="I1"></p>
+    <p class="P3">Destination: <input type="text" id="I2"></p>
+    <p class="P3">First Train: <input type="time" id="I3"></p>
+    <!-- User cannot input military time, but military time is what will be stored.   -->
+    <p class="P3">Frequency (min): <input type="text" id="I4"></p>
+
+    <button class= "btn">Enter</button>
+    
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+<script type="text/javascript" src="assets/logic.js">
+
+
+</script>
+
+</body>
